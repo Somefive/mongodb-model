@@ -1,0 +1,12 @@
+{
+  "name": "mongodb-model",
+  "version": "1.0.0",
+  "description": "A simple extension for models in mongodb.",
+  "main": "",
+  "scripts": {},
+  "author": "Somefive",
+  "license": "MIT",
+  "dependencies": {
+    "@types/mongodb": "^2.2.7"
+  }
+}
