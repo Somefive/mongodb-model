@@ -1,4 +1,5 @@
-import {CollectionInsertOneOptions, ReplaceOneOptions, ObjectID, Db, Collection} from 'mongodb'
+import {CollectionInsertOneOptions, ReplaceOneOptions, ObjectID, Db, Collection, 
+    InsertOneWriteOpResult, UpdateWriteOpResult, DeleteWriteOpResultObject} from 'mongodb'
 import { Model } from './model'
 import { kebabCase } from 'lodash'
 export class MongoModel extends Model {
