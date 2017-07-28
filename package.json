@@ -1,6 +1,6 @@
 {
   "name": "mongodb-model",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple extension for models in mongodb.",
   "main": "",
   "scripts": {
