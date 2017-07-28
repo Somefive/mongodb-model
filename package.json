@@ -2,7 +2,8 @@
   "name": "mongodb-model",
   "version": "1.0.2",
   "description": "A simple extension for models in mongodb.",
-  "main": "",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "scripts": {
     "build": "rm -rf dist/ && tsc -p tsconfig-build.json",
     "clean": "rm -rf lib/ dist/"
