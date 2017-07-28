@@ -4,7 +4,7 @@
   "description": "A simple extension for models in mongodb.",
   "main": "",
   "scripts": {
-    "build": "tsc -p tsconfig-build.json",
+    "build": "rm -rf dist/ && tsc -p tsconfig-build.json",
     "clean": "rm -rf lib/ dist/"
   },
   "git": "https://github.com/Somefive/mongodb-model#master",
